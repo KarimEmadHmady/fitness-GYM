@@ -36,6 +36,7 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
+    overflow: hidden;
 }
 
 .navi {
@@ -169,6 +170,7 @@ body {
     color: var(--main-color);
     margin-bottom: 200px;
     animation-duration: 3s;
+    overflow: hidden;
 }
 
 .waves {
@@ -178,9 +180,8 @@ body {
     right: 0;
     height: 200px;
     background-color: transparent;
-    box-shadow: inset 0 0 50px
-        /* rgba(135, 197, 19, 0.5) */
-    ;
+    box-shadow: inset 0 0 50px;
+
     transition: 300ms;
     opacity: 0.4;
 }
